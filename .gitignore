@@ -4,3 +4,57 @@ appsettings.Development.json
 # Build artifacts
 bin/
 obj/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# Visual Studio Code
+.vscode/
+
+# User-specific files
+*.userprefs
+
+# Build results
+Debug/
+Release/
+x64/
+x86/
+[Bb]uild/
+[Bb]in/
+[Oo]bj/
+
+# Test results
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# Packages
+*.nupkg
+*.snupkg
+packages/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+**/project.assets.json
+**/project.nuget.cache
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+*.bak
+
+# Rider
+.idea/
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
