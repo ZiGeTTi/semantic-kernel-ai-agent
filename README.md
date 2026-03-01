@@ -2,6 +2,14 @@
 
 Minimal console app using Semantic Kernel with OpenAI.
 
+## What this agent does
+
+- Accepts a URL or manual title/body input
+- If given a URL, fetches HTML, removes noise, extracts main text, and builds ordered blocks (paragraphs, code, images)
+- Summarizes the content with Semantic Kernel (OpenAI chat completion)
+- If Notion is configured, creates a Notion page with the title, full body, summary, and extracted blocks
+- If Notion is not configured, prints the summary to the console
+
 ## Configuration
 
 You can provide the API key via `appsettings.Development.json`, `appsettings.json`, or the `OPENAI_API_KEY` environment variable. The environment variable overrides the file.
