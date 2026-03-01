@@ -1,2 +1,6 @@
 # Local secrets
 appsettings.Development.json
+
+# Build artifacts
+bin/
+obj/
